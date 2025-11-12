@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project>
+  <conf type="attributes">
+    <name><![CDATA[root@github_test]]></name>
+    <description/>
+    <archive><![CDATA[github_test.jar]]></archive>
+    <testProject><![CDATA[false]]></testProject>
+    <modifier><![CDATA[hsamejima]]></modifier>
+    <modified><![CDATA[1762923287834]]></modified>
+    <version><![CDATA[4]]></version>
+    <extensions type="attributes">
+      <folders type="list"/>
+      <folderCreated children="property" type="attributes"/>
+      <folderLastUpdated children="property" type="attributes"/>
+      <customLogicDefinition><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+<palette type="project" version="2.3" />]]></customLogicDefinition>
+      <id_s600001g1ul3rsc3svpot3o4pkti><![CDATA[0]]></id_s600001g1ul3rsc3svpot3o4pkti>
+      <specCompanyName/>
+      <specProjectName/>
+      <specAuthorName/>
+      <id_oq00001g1ul3rsc3svkket7qpktj><![CDATA[1]]></id_oq00001g1ul3rsc3svkket7qpktj>
+    </extensions>
+  </conf>
+  <entries type="attributes">
+    <entry key="s600001g1ul3rsc3svpot3o4pkti" type="attributes">
+      <name><![CDATA[test]]></name>
+      <type><![CDATA[ScriptEntry]]></type>
+      <description/>
+      <version><![CDATA[1]]></version>
+    </entry>
+    <entry key="oq00001g1ul3rsc3svkket7qpktj" type="attributes">
+      <name><![CDATA[test2]]></name>
+      <type><![CDATA[ScriptEntry]]></type>
+      <description/>
+      <version><![CDATA[1]]></version>
+    </entry>
+  </entries>
+</project>

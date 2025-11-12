@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<script>
+  <memento>
+    <extension type="attributes">
+      <created><![CDATA[1762923264935]]></created>
+      <lastUpdated><![CDATA[1762922647938]]></lastUpdated>
+      <testArgumentValues children="property" type="attributes"/>
+      <migrationFrows type="attributes"/>
+      <testArgumentValuesEnabled><![CDATA[false]]></testArgumentValuesEnabled>
+      <gridSize><![CDATA[0]]></gridSize>
+    </extension>
+    <option type="attributes"/>
+    <description/>
+  </memento>
+  <children type="components">
+    <memento id="ci00001g1ul3rsc3svsket9cpktj" type="ReturnComponent">
+      <name/>
+      <description/>
+      <base type="attributes"/>
+      <extension type="attributes">
+        <locationX><![CDATA[400]]></locationX>
+        <locationY><![CDATA[275]]></locationY>
+        <index><![CDATA[1]]></index>
+        <breakPoint><![CDATA[false]]></breakPoint>
+        <visible><![CDATA[true]]></visible>
+      </extension>
+    </memento>
+    <memento id="i600001g1ul3rsc3svqket8spktj" type="ScriptOriginComponent">
+      <name/>
+      <description/>
+      <base type="attributes">
+        <txAttr><![CDATA[2]]></txAttr>
+      </base>
+      <extension type="attributes">
+        <locationX><![CDATA[16]]></locationX>
+        <locationY><![CDATA[16]]></locationY>
+        <index><![CDATA[0]]></index>
+        <breakPoint><![CDATA[false]]></breakPoint>
+        <visible><![CDATA[true]]></visible>
+      </extension>
+    </memento>
+  </children>
+  <children type="relations">
+    <memento id="a528906f6200d41d1802e82d3375810e0" type="ProcessFlow">
+      <base type="attributes">
+        <fromID><![CDATA[i600001g1ul3rsc3svqket8spktj]]></fromID>
+        <toID><![CDATA[ci00001g1ul3rsc3svsket9cpktj]]></toID>
+      </base>
+    </memento>
+  </children>
+</script>
