@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project>
+  <conf type="attributes">
+    <name><![CDATA[root@github_test]]></name>
+    <description/>
+    <archive><![CDATA[github_test.jar]]></archive>
+    <testProject><![CDATA[false]]></testProject>
+    <modifier><![CDATA[root]]></modifier>
+    <modified><![CDATA[1762922360414]]></modified>
+    <version><![CDATA[0]]></version>
+    <extensions type="attributes"/>
+  </conf>
+  <entries type="attributes"/>
+</project>
