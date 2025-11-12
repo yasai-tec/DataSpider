@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<script>
+  <memento>
+    <extension type="attributes">
+      <created><![CDATA[1762922361992]]></created>
+      <lastUpdated><![CDATA[1762922658292]]></lastUpdated>
+      <testArgumentValues children="property" type="attributes"/>
+      <migrationFrows type="attributes"/>
+      <testArgumentValuesEnabled><![CDATA[false]]></testArgumentValuesEnabled>
+      <gridSize><![CDATA[0]]></gridSize>
+    </extension>
+    <option type="attributes"/>
+    <description/>
+  </memento>
+  <children type="components">
+    <memento id="r400001g1ul3rsc3svlot3p8pkti" type="ScriptOriginComponent">
+      <name/>
+      <description/>
+      <base type="attributes">
+        <txAttr><![CDATA[2]]></txAttr>
+      </base>
+      <extension type="attributes">
+        <locationX><![CDATA[16]]></locationX>
+        <locationY><![CDATA[16]]></locationY>
+        <index><![CDATA[0]]></index>
+        <breakPoint><![CDATA[false]]></breakPoint>
+        <visible><![CDATA[true]]></visible>
+      </extension>
+    </memento>
+    <memento id="r400001g1ul3rsc3svhot48spkti" type="ReturnComponent">
+      <name/>
+      <description/>
+      <base type="attributes"/>
+      <extension type="attributes">
+        <locationX><![CDATA[400]]></locationX>
+        <locationY><![CDATA[275]]></locationY>
+        <index><![CDATA[1]]></index>
+        <breakPoint><![CDATA[false]]></breakPoint>
+        <visible><![CDATA[true]]></visible>
+      </extension>
+    </memento>
+    <memento id="a03ef235ecb224d529562d09f60957d90" type="DataProcessingCallComponent">
+      <name><![CDATA[csv_write]]></name>
+      <description/>
+      <base type="attributes">
+        <moduleName><![CDATA[csv_adapter]]></moduleName>
+        <operationName><![CDATA[put_data]]></operationName>
+        <operationProperties children="property" type="attributes">
+          <property key="FILE_PATH::type"><![CDATA[simple]]></property>
+          <property key="FILE_PATH::value"/>
+          <property key="DELIMITER_MODE::type"><![CDATA[simple]]></property>
+          <property key="DELIMITER_MODE::value"><![CDATA[DELIMITER_MODE_LIST_VALUE]]></property>
+          <property key="DELIMITER_CHAR::type"><![CDATA[simple]]></property>
+          <property key="DELIMITER_CHAR::value"><![CDATA[,]]></property>
+          <property key="DELIMITER_DIRECT::type"><![CDATA[simple]]></property>
+          <property key="DELIMITER_DIRECT::value"/>
+          <property key="DELIMITER_CHARSET::type"><![CDATA[simple]]></property>
+          <property key="DELIMITER_CHARSET::value"/>
+          <property key="COLUMNS::type"><![CDATA[table]]></property>
+          <property key="COLUMNS::columns"><![CDATA[COLUMN_NAME::COLUMN_QUOTED]]></property>
+          <property key="COLUMNS::rows"><![CDATA[0]]></property>
+          <property key="CHARSET::type"><![CDATA[simple]]></property>
+          <property key="CHARSET::value"><![CDATA[Windows-31J]]></property>
+          <property key="NEW_LINE::type"><![CDATA[simple]]></property>
+          <property key="NEW_LINE::value"><![CDATA[AUTO]]></property>
+          <property key="OVER_WRITE_MODE::type"><![CDATA[simple]]></property>
+          <property key="OVER_WRITE_MODE::value"><![CDATA[true]]></property>
+          <property key="APPEND::type"><![CDATA[simple]]></property>
+          <property key="APPEND::value"><![CDATA[false]]></property>
+          <property key="INSERT_FIRST_LINE::type"><![CDATA[simple]]></property>
+          <property key="INSERT_FIRST_LINE::value"><![CDATA[false]]></property>
+          <property key="NOT_INSERT_FIRST_LINE_FILE_EXIST::type"><![CDATA[simple]]></property>
+          <property key="NOT_INSERT_FIRST_LINE_FILE_EXIST::value"><![CDATA[false]]></property>
+          <property key="SUPPORTS_TX::type"><![CDATA[simple]]></property>
+          <property key="SUPPORTS_TX::value"><![CDATA[false]]></property>
+        </operationProperties>
+      </base>
+      <extension type="attributes">
+        <locationX><![CDATA[276]]></locationX>
+        <locationY><![CDATA[200]]></locationY>
+        <index><![CDATA[0]]></index>
+        <breakPoint><![CDATA[false]]></breakPoint>
+        <visible><![CDATA[true]]></visible>
+        <inPSPBlock><![CDATA[true]]></inPSPBlock>
+        <inputGlobalSchemaName/>
+        <outputGlobalSchemaName/>
+      </extension>
+    </memento>
+    <memento id="a0dd7bfccb20440daa3021feb843d7ec7" type="DataProcessingCallComponent">
+      <name><![CDATA[R_CSV]]></name>
+      <description/>
+      <base type="attributes">
+        <moduleName><![CDATA[csv_adapter]]></moduleName>
+        <operationName><![CDATA[get_data]]></operationName>
+        <operationProperties children="property" type="attributes">
+          <property key="FILE_PATH::type"><![CDATA[simple]]></property>
+          <property key="FILE_PATH::value"><![CDATA[/data/IN/INPUT.csv]]></property>
+          <property key="DELIMITER_MODE::type"><![CDATA[simple]]></property>
+          <property key="DELIMITER_MODE::value"><![CDATA[DELIMITER_MODE_LIST_VALUE]]></property>
+          <property key="DELIMITER_CHAR::type"><![CDATA[simple]]></property>
+          <property key="DELIMITER_CHAR::value"><![CDATA[,]]></property>
+          <property key="DELIMITER_DIRECT::type"><![CDATA[simple]]></property>
+          <property key="DELIMITER_DIRECT::value"/>
+          <property key="DELIMITER_CHARSET::type"><![CDATA[simple]]></property>
+          <property key="DELIMITER_CHARSET::value"/>
+          <property key="COLUMNS::type"><![CDATA[table]]></property>
+          <property key="COLUMNS::columns"><![CDATA[COLUMN_NAME]]></property>
+          <property key="COLUMNS::rows"><![CDATA[3]]></property>
+          <property key="COLUMNS::row::0::column::COLUMN_NAME"><![CDATA[column1]]></property>
+          <property key="COLUMNS::row::1::column::COLUMN_NAME"><![CDATA[column2]]></property>
+          <property key="COLUMNS::row::2::column::COLUMN_NAME"><![CDATA[column3]]></property>
+          <property key="CHARSET::type"><![CDATA[simple]]></property>
+          <property key="CHARSET::value"><![CDATA[Windows-31J]]></property>
+          <property key="START_LINE_NUMBER::type"><![CDATA[simple]]></property>
+          <property key="START_LINE_NUMBER::value"><![CDATA[1]]></property>
+          <property key="SKIP_FIRST_LINE::type"><![CDATA[simple]]></property>
+          <property key="SKIP_FIRST_LINE::value"><![CDATA[true]]></property>
+          <property key="ENABLE_PARALLEL::type"><![CDATA[simple]]></property>
+          <property key="ENABLE_PARALLEL::value"><![CDATA[false]]></property>
+          <property key="XMLFW_LARGEDATA::type"><![CDATA[simple]]></property>
+          <property key="XMLFW_LARGEDATA::value"><![CDATA[USE_SCRIPT_DEFAULT]]></property>
+        </operationProperties>
+      </base>
+      <extension type="attributes">
+        <locationX><![CDATA[111]]></locationX>
+        <locationY><![CDATA[76]]></locationY>
+        <index><![CDATA[0]]></index>
+        <breakPoint><![CDATA[false]]></breakPoint>
+        <visible><![CDATA[true]]></visible>
+        <inPSPBlock><![CDATA[true]]></inPSPBlock>
+        <inputGlobalSchemaName/>
+        <outputGlobalSchemaName/>
+      </extension>
+    </memento>
+  </children>
+  <children type="relations">
+    <memento id="a5ffe0dd06d594b158a0671e4c6a304a7" type="ProcessFlow">
+      <base type="attributes">
+        <fromID><![CDATA[r400001g1ul3rsc3svlot3p8pkti]]></fromID>
+        <toID><![CDATA[a0dd7bfccb20440daa3021feb843d7ec7]]></toID>
+      </base>
+    </memento>
+    <memento id="aa0ff54602e00494a820c2afd3403077c" type="ProcessFlow">
+      <base type="attributes">
+        <fromID><![CDATA[a03ef235ecb224d529562d09f60957d90]]></fromID>
+        <toID><![CDATA[r400001g1ul3rsc3svhot48spkti]]></toID>
+      </base>
+    </memento>
+    <memento id="a9cd239913bb34b4aadf74e73707e6551" type="DataFlow">
+      <base type="attributes">
+        <fromName><![CDATA[main_data]]></fromName>
+        <toName><![CDATA[main_data]]></toName>
+        <inPSPBlock><![CDATA[true]]></inPSPBlock>
+        <fromID><![CDATA[a0dd7bfccb20440daa3021feb843d7ec7]]></fromID>
+        <toID><![CDATA[a03ef235ecb224d529562d09f60957d90]]></toID>
+      </base>
+      <extension type="attributes">
+        <index><![CDATA[0]]></index>
+      </extension>
+    </memento>
+    <memento id="a1fa544b4172147f59a48d41feb0e5a08" type="ProcessFlow">
+      <base type="attributes">
+        <fromID><![CDATA[a0dd7bfccb20440daa3021feb843d7ec7]]></fromID>
+        <toID><![CDATA[a03ef235ecb224d529562d09f60957d90]]></toID>
+      </base>
+    </memento>
+  </children>
+</script>
